@@ -1,0 +1,66 @@
+html {
+	background:url(rowteeme-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header {
+	font-family: 'HeadlandOne', Helvetica, Arial, sans-serif; 
+	background-color: rgba(50,50,50,0.58);
+	width: 415px;
+	height: 125px;
+	margin: 90px 15px 30px;
+	padding: 5px 30px 5px 30px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 300;
+	
+}
+
+.normal {
+	color: #ffffff;
+	
+}
+
+nav {
+	font-family: 'Aller';
+	margin-left: 50px;
+}
+
+nav ul {
+	list-style: none;
+
+}
+
+nav li {
+	font-size: 20px;
+	line-height: 40px;
+	margin-right: 7px;
+	}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+aside {
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	color: #323232;
+	background:url(grey.png) repeat;
+	width: 540px;
+	height: 135px;
+	padding-top: 18px;
+	-moz-box-shadow: 3px 5px 3px 0px #323232;
+	-webkit-box-shadow: 3px 5px 3px 0px #3232332;
+	box-shadow: 3px 5px 3px 0px #323232;
+}
+
+aside img {
+	float: left;
+	margin: 8px 20px 15px 15px;
+}
