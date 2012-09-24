@@ -1,66 +1,94 @@
-html {
+/*html {
 	background:url(rowteeme-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
 }
+*/
+
 
 header {
-	font-family: 'HeadlandOne', Helvetica, Arial, sans-serif; 
-	background-color: rgba(50,50,50,0.58);
-	width: 415px;
-	height: 125px;
-	margin: 90px 15px 30px;
-	padding: 5px 30px 5px 30px;
+
+	margin-top: 72px;
+	text-align: center;
+
 }
 
 h1 {
-	font-size: 40px;
-	font-weight: 300;
-	
+
+	font-family: 'Museo Slab', Georgia, "Times New Roman", Times, serif; 
+	font-size: 48px;
+	font-weight: 500;
+	color: #323232;
 }
 
-.normal {
-	color: #ffffff;
-	
-}
+
 
 nav {
-	font-family: 'Aller';
-	margin-left: 50px;
+	font-family: 'Proxima Nova';
+
 }
 
 nav ul {
+	margin-top: 72px;
+	margin-bottom: 47px;
 	list-style: none;
 
 }
 
 nav li {
-	font-size: 20px;
-	line-height: 40px;
-	margin-right: 7px;
+	font-size: 18px;
+	margin-right: 23px;
+	display: inline;
 	}
 
-a {
-	color: #ffffff;
-	text-decoration: none;
+nav li a {
+	color: #646464;
 }
 
-aside {
+.splash {
+ 	background: url(../img/splash.jpg) no-repeat top center;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+ 	height: 518px;
+
+
+ }
+
+ section.intro {
+ 	background:url(../img/grey.png) repeat;
+	-webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	width: 574px;
+	height: 145px;
+	margin: 0 auto;
+
+ }
+
+.intro p {
 	font-family: 'Proxima Nova';
 	font-size: 14px;
 	color: #323232;
-	background:url(grey.png) repeat;
-	width: 564px;
-	height: 136px;
-	padding-top: 18px;
-	-moz-box-shadow: 3px 5px 3px 0px #323232;
-	-webkit-box-shadow: 3px 5px 3px 0px #3232332;
-	box-shadow: 3px 5px 3px 0px #323232;
+	
+
 }
 
-aside img {
-	float: left;
+
+
+.intro img {
+	float: right;
 	margin: 8px 20px 15px 15px;
+}
+
+footer {
+	-webkit-box-shadow: 1px 1px 12px rgba(0,0,0,.75);
+	-moz-box-shadow: 1px 1px 12px rgba(0,0,0,.75);
+	box-shadow: 1px 1px 12px rgba(0,0,0,.75);
+	height: 111px;
+	margin-top: -86px;
 }
