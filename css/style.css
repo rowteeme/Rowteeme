@@ -54,8 +54,9 @@ nav li a {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
- 	height: 518px;
-
+ 	height: 517px;
+ 	min-width: 1080px;
+ 	padding: 10px 0 10px 0;
 
  }
 
@@ -64,31 +65,39 @@ nav li a {
 	-webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
 	-moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
 	box-shadow: 3px 4px 5px rgba(0,0,0,.75);
-	width: 574px;
+	width: 560px;
 	height: 145px;
-	margin: 0 auto;
+	margin: 237px auto auto;
+	padding: 26px 35px 0;
 
  }
 
 .intro p {
 	font-family: 'Proxima Nova';
 	font-size: 14px;
-	color: #323232;
-	
-
+	color: #121212;
+	line-height: 2.2em;
+/*	max-width: 400px;
+*/	float: left;
+	margin-right: 20px;
 }
 
 
 
-.intro img {
+img .floatRight {
 	float: right;
-	margin: 8px 20px 15px 15px;
+	margin: 4px;	
 }
 
 footer {
-	-webkit-box-shadow: 1px 1px 12px rgba(0,0,0,.75);
-	-moz-box-shadow: 1px 1px 12px rgba(0,0,0,.75);
-	box-shadow: 1px 1px 12px rgba(0,0,0,.75);
-	height: 111px;
-	margin-top: -86px;
+	-webkit-box-shadow: 1px 1px 12px rgba(0,0,0,.54);
+	-moz-box-shadow: 1px 1px 12px rgba(0,0,0,.54);
+	box-shadow: 1px 1px 12px rgba(0,0,0,.54);
+	height: 67px;
+	margin-top: 117px;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	z-index: 999;
+
 }
