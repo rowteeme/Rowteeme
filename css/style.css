@@ -29,23 +29,44 @@ h2 {
 	font-size: 18px;
 	font-weight: 300;
 	margin-top: 18px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Museo Slab', Georgia, serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #323232;
+}
+
+hgroup {
+	margin-bottom: 50px;
 }
 
 .job {
  	position: relative; 
 	margin-bottom: 1em;
+	margin-right: 3em;
 	padding-bottom: 1em; 
 	border-bottom: 1px solid #ccc;
 }
+.job p { margin: 0.75em 0 2.2em 0; }
 
-.job h4 {
+.job h3 {
+	font-style: oblique;
+}
+h4 {
+	 font-family: 'Proxima Nova';
+	 font-weight: 300;
+	 font-size: 14px;
 	 position: absolute;
 	 top: 0.35em;
 	 right: 0 
 }
-.job p { margin: 0.75em 0 3em 0; }
+
 
 .last { border: none; }
+
 
 section li {
 	display: inline;
@@ -53,7 +74,7 @@ section li {
 
 nav {
 	font-family: 'Proxima Nova';
-
+	text-align: center;
 }
 
 nav ul {
@@ -73,6 +94,27 @@ nav li a {
 	color: #646464;
 }
 
+.side {
+	background-color: #f5ecdd;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	padding: 35px 58px;
+	margin: 10px 0 30px 0;
+
+}
+
+.side p {
+	font-family: 'Museo Slab', Georgia, serif;
+	font-size: 13px;
+	line-height: 1.6em;
+}
+
+.edu {
+	text-align: center;
+}
+
 .splash {
  	background: url(../img/splash.jpg) no-repeat top center;
  	-webkit-background-size: cover;
@@ -82,7 +124,6 @@ nav li a {
  	height: 517px;
  	min-width: 1080px;
  	padding: 10px 0 10px 0;
-
  }
 
  section.intro {
@@ -111,7 +152,7 @@ nav li a {
 
 img .floatRight {
 	float: right;
-	margin: 4px;	
+	padding-top: 8px;
 }
 
 footer {
@@ -123,6 +164,10 @@ footer {
 	filter:alpha(opacity=70);
 	-moz-opacity:0.7;
 	opacity: 0.7;
-	z-index: 999;
 
+}
+
+footer nav {
+	margin-top: 12px;
+	border-top: 5px;
 }
