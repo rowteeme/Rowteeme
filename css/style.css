@@ -8,6 +8,11 @@
 }
 */
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(fonts/ProximaNova-Regular.ttf);
+    font-weight:300;
+}
 
 header {
 
@@ -25,7 +30,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Proxima Nova';
+	font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	margin-top: 18px;
@@ -55,11 +60,12 @@ hgroup {
 .job h3 {
 	font-style: oblique;
 }
+
 h4 {
-	 font-family: 'Proxima Nova';
+	 font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
 	 font-weight: 300;
 	 font-size: 14px;
-	 position: absolute;
+	 /*position: absolute;*/
 	 top: 0.35em;
 	 right: 0 
 }
@@ -73,7 +79,7 @@ section li {
 }
 
 nav {
-	font-family: 'Proxima Nova';
+	font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
@@ -126,7 +132,7 @@ nav li a {
  	padding: 10px 0 10px 0;
  }
 
- section.intro {
+.intro {
  	background:url(../img/grey.png) repeat;
 	-webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
 	-moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
@@ -139,7 +145,7 @@ nav li a {
  }
 
 .intro p {
-	font-family: 'Proxima Nova';
+	font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #121212;
 	line-height: 2.2em;
@@ -154,6 +160,38 @@ img .floatRight {
 	float: right;
 	padding-top: 8px;
 }
+
+
+.about {
+ 	background:url(../img/grey.png) repeat;
+	-webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	width: 560px;
+/*	height: 145px;
+*/	margin: 80px auto auto;
+	padding: 20px 35px 20px;
+
+ }
+
+.about p {
+	font-size: 14px;
+	line-height: 1.6em;
+	margin: 8px 0 8px 0;
+	padding: 26px 35px 0;
+}
+
+.btn-primary {
+	margin-top: 15px;
+}
+
+
+
+/*.about li {
+	display: block;
+	margin: 8px 0px 8px 25px;
+
+}*/
 
 footer {
 	-webkit-box-shadow: 1px 1px 12px rgba(0,0,0,.54);
