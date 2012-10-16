@@ -65,7 +65,7 @@ h4 {
 	 font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
 	 font-weight: 300;
 	 font-size: 14px;
-	 /*position: absolute;*/
+	 position: absolute;
 	 top: 0.35em;
 	 right: 0 
 }
@@ -185,6 +185,13 @@ img .floatRight {
 	margin-top: 15px;
 }
 
+.writinglist {
+	display: block; 
+}
+
+.writinglist nav-header {
+	color: #888888;
+}
 
 
 /*.about li {
